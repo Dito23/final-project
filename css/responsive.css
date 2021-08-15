@@ -25,6 +25,9 @@
         flex-wrap: wrap;
         width: 100%;
     }
+    .footer-row {
+        width: 100%;
+    }
 }
 
 
@@ -46,10 +49,22 @@
     }
     .tittle1 {
         font-size: 40px;
+    } 
+    .footer-row {
+        width: 100%;
+    }
+    .overlay1 {
+        height: 100%;
+    
     }
 }
 
-
+@media  (max-width:1263px) {
+    .map {
+        width: 40%;
+    }
+   
+}
 
 @media(max-width:1200px) {
     .making {
@@ -61,23 +76,135 @@
 }
 
 @media (max-width:1200px){
-    .map {
-        width: 50%;
-    }
+   
     .banner-texth1{
         width: 10%;
+    
+}
+
+
+@media (max-width:697px) {
+    .footerleft {
+        margin-left: 50px;
+    }
+    .map {
+       margin-top: 392px;
+       width: 100%;
+    }
+    .footerleft{
+        margin-left: 20px;
+    }
+    .tittle1 {
+        font-size: 45px;
+       
+    }
+    
+}
+
+@media (max-width:517px) {
+    
+    .footer-right {
+        
+        margin-left: -100px;
+    }
+    .jameson {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    .shop1 {
+       
+        width: 110%;
+        
+    }
+    .categorie1 img {
+        width: 120%;
+       height: 105%;
+
+    }
+    .categorie1 p {
+        margin-left: 35px;
+        width: 100%;
+    }
+   
+    .categorie1 h1 {
+        margin-left: 55px;
+    }
+    .overlay1 {
+        height: 100%;
+    width: 120%;
+    }
+    
+}
+
+@media (max-width: 475px) {
+    .footerleft {
+        margin-left: -10px;
+    }
+    .tittle1{
+        font-size: 40px;
+    }
+    .desc {
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: -200px;
+        
+    }   
+    .categorie1 p {
+        margin-left: 20px;
+        width: 100%;
+    }
+   
+    .categorie1 h1 {
+        margin-left: 50px;
+    }
+    
+}
+
+@media (max-width:350px) {
+    .footer-row {
+        font-size: 15px;
+    }
+    .tittle1{
+        font-size: 35px;
+    }
+   .jameson {
+       font-size: 15px;
+   }
+   .price {
+       font-size: 15px;
+   }
+   .desc {
+       font-size: 15px;
+   }
+   .categorie1 img {
+    width: 130%;}
+    .categorie1 p {
+        margin-left: 30px;
+        width: 100%;
+    }
+   
+    .categorie1 h1 {
+        margin-left: 60px;
+    }
+    .overlay1 {
+       
+    width: 130%;
     }
 }
 
 
+@media (max-width:685px) {
+    
+    .desc {
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: -20px;
+        
+    }   
 
-
-
-
-
-
-
-
+}
 
 
 
