@@ -1,0 +1,170 @@
+@media (max-width: 1220px) {
+    .nav {
+        display: none;
+        flex-wrap: wrap;
+
+    }
+   #burger {
+        display: block;
+    }
+}
+
+@media (max-width:1024px) {
+    .shopbox {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+       
+    }
+    .desc {
+        flex-wrap: wrap;
+        
+    }
+    .overlay {
+        width: 100%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .categoriesbox{
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+       
+    }
+    .desc {
+        flex-wrap: wrap;
+        
+    }
+    .overlay {
+        width: 100%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .tittle1 {
+        font-size: 40px;
+    }
+}
+
+
+
+@media(max-width:1200px) {
+    .making {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+       
+    }
+}
+
+@media (max-width:1200px){
+    .map {
+        width: 50%;
+    }
+    .banner-texth1{
+        width: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media( max-width:375px) {
+    .shopbox {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+        width: 100%;
+    }
+    .desc {
+        width: 10%;
+    }
+    .overlay {
+        
+        flex-wrap: wrap;
+       
+    }
+}
+@media (max-width:320px) {
+    .shopbox {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+    }
+    .desc {
+        flex-wrap: wrap;
+    }
+    .overlay {
+        width: 10%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    .categoriesbox {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+    }
+    .desc {
+        flex-wrap: wrap;
+    }
+    .overlay {
+        width: 10%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .makingprocess-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+    }
+    .makingprocess-img1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+        width: 100%;
+    }
+}
+
+
+ */
+
+
+

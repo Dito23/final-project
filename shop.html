@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <script src="https://kit.fontawesome.com/7735173edc.js" crossorigin="anonymous"></script>
+    <title>Whiskey</title>
+</head>
+<body>
+
+    <header id="head">  
+ 		
+		<nav class="nav">
+		<ul >
+		<li class="nav1">
+			<a href="index.html"> <p class="home"> Home </p> </a>
+
+		</li>
+
+		<li class="nav2">
+			<a href="howiswhiskey.html"> <p class="home"> How is whiskey made? </p> </a>
+		</li>
+
+		<li class="nav3">
+			<a href="whiskeys.html"> <p class="home"> Whiskeys </p> </a>
+		</li>
+        <li class="nav4">
+			<a href="index.html"> <p class="home"> Shop </p> </a>
+		</li>
+        <li class="nav5">
+			<a href="aboutus.html"> <p class="home"> About us </p> </a>
+		</li>
+		</ul>
+		</nav>
+	</header>
+   
+
+    <div id="navigation">
+        <nav>
+            <ul class="burgerra">
+                <li> <a class="home" href="index.html">Home </a></li>
+                <li> <a class="home" href="howiswhiskey.html"> How is whiskey made? </a> </li>
+                <li> <a class="home" href="whiskeys.html"> Whiskey categories </a></li>
+                <li> <a class="home" href="shop.html"> Shop</a></li>
+                <li> <a class="home" href="aboutus.html"> About us </a></li>
+            </ul>
+        </nav>
+    </div>
+        <div id="burger" > 
+            <img class="burgerr" src="images/menu.png" id="burgerr" alt=""> 
+        </div>
+
+
+<script>
+var burger = document.getElementById("burger")
+var navigation = document.getElementById("navigation")
+var burgerr = document.getElementById("burgerr")
+navigation.style.right="-250px";
+
+burger.onclick = function() {
+    if(navigation.style.right=="-250px") {
+        navigation.style.right="0";   
+    }
+    else {
+       navigation.style.right="-250px";  
+    }
+}
+</script>
+
+<section class="shopping">
+
+    <div class="tittle">
+        <h1 class="tittle1">Shop</h1>
+            </div>
+           
+            <div class="shopbox" >
+                <div class="shop1">
+                    <img src="images/JJ-0810POSModelLifestyle091_2048x.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="desc">
+                        <h1 class="jameson">Jameson T-Shirt</h1>
+                        <hr>
+                        <p class="price">Jameson Green T-Shirt - 30$</p>
+                    </div>
+                </div>
+                <div class="shop1">
+                    <img src="images/hf.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="desc">
+                        <h1 class="jameson">Jameson Cap</h1>
+                        <hr>
+                        <p class="price">Jameson Green Cap - 20$<p>
+                    </div>
+                </div>
+                <div class="shop1">
+                    <img src="images/Jameson-Kangaroo-Hoodie-Close_2048x.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="desc">
+                        <h1 class="jameson">Jameson Hoddie</h1>
+                        <hr>
+                        <p class="price">Jameson Green Hoddie - 40$ </p>
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+
+</section>
+</section> 
+<section class="footer">
+    <div>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436063.01929546!2d-10.198179016403435!3d53.39751602890105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485e619e5d73698f%3A0xca9b39444d6ac68d!2z4YOY4YOg4YOa4YOQ4YOc4YOT4YOY4YOQ!5e0!3m2!1ska!2sge!4v1627752755777!5m2!1ska!2sge" 
+    width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+    <div class="tittle">
+        <h1 class="tittle1">About Us</h1>
+        
+        </div>
+
+
+        <div class="footer-row">
+        <div class="footerleft">
+            <h1><i class="fas fa-map-marker-alt"></i>Store address</h1>
+            <p><i class="fas fa-info-circle"></i> Company informations</p>
+            <p><i class="fas fa-phone"></i>Contact us</p>
+            <p><i class="fas fa-comment-dots"></i>Feedback</p>
+         </div>
+         
+         <div class="footer-right">
+             
+            <p>FAQ<i class="fas fa-user-shield"></i></p>
+             <p>Privacy policy <i class="fas fa-user-lock"></i> </p>
+             <p>Help<i class="fas fa-hands-helping"></i></p>
+             <p>Copyrights <i class="fas fa-copyright"></i></p>
+
+</div>
+
+
+
+</section>
+
+
+<footer class="footer1">
+    <div class="socialx" >
+      <a   href="https://www.facebook.com/ditooo88/" target="_target">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        
+     <a href="https://www.instagram.com/ditooo88/?fbclid=IwAR38xxDlkefvAXkviA3f8dLqwwWmg-A1HCBuw6Ae7TpCXRDXo6KnJ7edDG0" target="_blank">
+        <i  class="fab fa-instagram" ></i>
+        </a>
+
+    <a href="https://www.youtube.com/channel/UC2oAkEpyKDIhmce1YCsYvTg" target="_blank">
+    
+        <i class="fab fa-youtube"></i>
+        </a>        
+        
+    </div>
+
+    
+    
+</footer>
+</body>
+
+</html>
