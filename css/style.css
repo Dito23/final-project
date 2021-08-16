@@ -4,8 +4,9 @@
     font-family: 'Oswald', sans-serif;
 }
 .banner {
-    background-image: url(/images/bar.jpg);
    
+    background: url(/images/bar.jpg);
+    margin-bottom: 100px;
     background-size: cover;
     background-position: center;
     height: 100vh;
