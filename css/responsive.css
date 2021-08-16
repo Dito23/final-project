@@ -76,10 +76,12 @@
 }
 
 @media (max-width:1200px){
-   
     .banner-texth1{
         width: 10%;
-    
+    }
+    .overlay2{
+        height: 100%;
+    }
 }
 
 
@@ -160,6 +162,7 @@
         margin-left: 50px;
     }
     
+    
 }
 
 @media (max-width:350px) {
@@ -179,7 +182,8 @@
        font-size: 15px;
    }
    .categorie1 img {
-    width: 130%;}
+    width: 130%;
+}
     .categorie1 p {
         margin-left: 30px;
         width: 100%;
@@ -192,6 +196,10 @@
        
     width: 130%;
     }
+    .shop1 img {
+        width: 100%;
+    }
+
 }
 
 
@@ -205,25 +213,65 @@
     }   
 
 }
+@media (max-width:520px){
+    .shop1 {
+        width: 100%;
+    }
+   
+}
+
+@media (max-width:660px){
+    
+   .irish  {
+       margin-top: -50px;
+       font-size: 18px;
+   }
+}
+@media (max-width:480px) {
+    .irish {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:375px) {
+    .irish {
+        margin-top: -40px;
+        font-size: 11px;
+    }
+}
 
 
 
+@media(max-width:510px){
+    .categorie1 {
+        margin-left: -50px;
+       
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width:440px){
+    .first {
+        width: 350px;
+    }
+    .banner-texth1 {
+        font-size: 120px;
+    }
+}
+@media(max-width:389px) {
+    .first {
+        width: 300px;
+    }
+    .banner-texth1 {
+       width: 100%;
+        font-size: 90px;
+    }
+}
+@media(max-width:338px) {
+    .first {
+        width: 280px;
+    }
+}
 /* 
 @media( max-width:375px) {
     .shopbox {
