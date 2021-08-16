@@ -4,7 +4,8 @@
     font-family: 'Oswald', sans-serif;
 }
 .banner {
-   background-image:  url('https://uproxx.com/wp-content/uploads/2020/11/Screen-Shot-2020-11-22-at-10.40.52-PM.jpg');
+    background-image: url(/images/bar.jpg);
+   
     background-size: cover;
     background-position: center;
     height: 100vh;
