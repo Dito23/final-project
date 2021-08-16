@@ -5,7 +5,7 @@
 }
 .banner {
    background: url(/images/bar.jpg); 
-    margin-top: -20px;
+   
     background-size: cover;
     background-position: center;
     height: 100vh;
