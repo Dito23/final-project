@@ -43,27 +43,25 @@
 	</header>
    
   
-   
+   <section>
+       <img class="aboutimg" src="images/7KOLX2YDRVBHPGX65CV6AFS7DI.jpg" alt="">
+   </section>
 
-  
  
+
    <div class="container">
-   
+    
     <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
-        <div class="font">Email</div>
+        <div class="font">Email or Phone</div>
         <input autocomplete="off" type="text" name="email">
-        <div id="email_error">Please enter a Email</div>
+        <div id="email_error">Please fill up your Email or Phone</div>
         <div class="font font2">Password</div>
         <input type="password" name="password">
-        <div id="pass_error">Please enter a Password</div>
-        <button type="submit">Login</button>
+        <div id="pass_error">Please fill up your Password</div>
+        <button class="subbmit" type="submit">Login</button>
     </form>
 </div>	
 <script src="valid.js"></script>
-
-
-        
-
 
 
 
@@ -74,20 +72,20 @@
 
 
 <script>
-var burger = document.getElementById("burger")
-var navigation = document.getElementById("navigation")
-var burgerr = document.getElementById("burgerr")
-navigation.style.right="-250px";
-
-burger.onclick = function() {
-    if(navigation.style.right=="-250px") {
-        navigation.style.right="0";   
+    var burger = document.getElementById("burger")
+    var navigation = document.getElementById("navigation")
+    var burgerr = document.getElementById("burgerr")
+    navigation.style.right="-250px";
+    
+    burger.onclick = function() {
+        if(navigation.style.right=="-250px") {
+            navigation.style.right="0";   
+        }
+        else {
+           navigation.style.right="-250px";  
+        }
     }
-    else {
-       navigation.style.right="-250px";  
-    }
-}
-</script>
+    </script>
 
 <section class="footer">
     <div>

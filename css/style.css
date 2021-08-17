@@ -5,7 +5,7 @@
 }
 .banner {
    
-    background-image: url(/images/bar.jpg);
+   
     margin-bottom: 100px;
     background-size: cover;
     background-position: center;
@@ -648,4 +648,8 @@ form {
 }
 .visk {
     width: 1px;
+}
+.aboutimg {
+    width: 65%;
+    margin-bottom: 50px;
 }
